@@ -41,6 +41,7 @@
 	    		frame.setVisible(true);
 	4) Create grid on panel:https://www.youtube.com/watch?v=Db3cC5iPrOM
 	5) Distribute random mines on Matrix: from previous class lab
+	```
 			string** Matrix::battleShip(){
 			    //string **array = matrix();
 				int i = 0;
@@ -60,3 +61,4 @@
 				}
 				return mat;
 			}
+			
