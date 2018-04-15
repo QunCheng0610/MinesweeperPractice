@@ -46,23 +46,23 @@
 	4) Create grid on panel:https://www.youtube.com/watch?v=Db3cC5iPrOM
 	5) Distribute random mines on Matrix: from previous class lab
 	```
-			string** Matrix::battleShip(){
-			    //string **array = matrix();
-				int i = 0;
-				while(i < 5) {
-					int currentRow = rand() % length;
-					for(int r = 0; r < length; r++) {
-						if(r == currentRow) {
-							int currentCol = rand() % width;
-							for (int c = 0; c < width; c++) {
-								if(c == currentCol && mat[currentRow][currentCol] == "0"){
-									mat[r][c] = "x";
-									i ++;
-								}
-							}
+	string** Matrix::battleShip(){
+	//string **array = matrix();
+		int i = 0;
+		while(i < 5) {
+			int currentRow = rand() % length;
+			for(int r = 0; r < length; r++) {
+				if(r == currentRow) {
+					int currentCol = rand() % width;
+					for (int c = 0; c < width; c++) {
+						if(c == currentCol && mat[currentRow][currentCol] == "0"){
+							mat[r][c] = "x";
+							i ++;
 						}
 					}
 				}
-				return mat;
 			}
+		}
+		return mat;
+	}
 			
