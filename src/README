@@ -8,7 +8,7 @@
    Run this mode with the commands below:
    		cd src
    		javac Game.java
-   		hava Game
+   		java Game
 
 2. Number of mines:
    In classic mode, the number of mines in each difficulties are constant. I put 7 mines in Easy level,
@@ -20,13 +20,13 @@
    As the number of tiles increase, the game still works, but the process time also increases. 
    i.e. it may take a while to generate the panel if I customized a 100*100 grid.
    
-5. Future Improvements: 
+4. Future Improvements: 
     1) Exit issue: currently, if you click a mine, the window will close, and provides ending infomation
                "BOMB! GAME OVER:)". A improvement could be when the user click the mine, the window is still there,
                but the game ends.
     2) Design issue: another future improvement is to use MVC design pattern so that code can be managed in a more clear way.
 
-6. Reference:
+5. Reference:
 	1) Icon website: https://www.flaticon.com/search?word=number
 	2) How to scale images: https://stackoverflow.com/questions/13810213/java-stretch-icon-to-fit-button
 	3) Create frame and panel: based on previous class lab
