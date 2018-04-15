@@ -2,14 +2,18 @@
 1. There are two modes for this game: classic and custom.
    In classic mode, you can pick three difficulty (Easy, Medium, and Hard). 
    Run this game in Terminal with the following commands:
-   		$> cd src
-		$> javac Game.java
-		$> java Game classic
+   ```
+   $> cd src
+   $> javac Game.java
+   $> java Game classic
+   ```
    In custom mode which is also the default mode, you can define row number and column number for your grid. 
    Similarly, run this game with the following commands:
-   		$> cd src
-   		$> javac Game.java
-   		$> java Game
+   ```
+   $> cd src
+   $> javac Game.java
+   $> java Game
+   ```
 
 2. Number of mines:
    In classic mode, the number of mines at each difficult level is constant. I use 7 mines at Easy level,
