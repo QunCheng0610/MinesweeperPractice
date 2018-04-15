@@ -15,16 +15,16 @@ public class ButtonState extends JButton{
     
     public ButtonState() {
         // Icon website: https://www.flaticon.com/search?word=number
-        D = scaleImage(new ImageIcon("src/ButtonStateIcons/DangerIcon1.png"));
-        S = scaleImage(new ImageIcon("src/ButtonStateIcons/SafeIcon.png"));
-        ONE = scaleImage(new ImageIcon("src/ButtonStateIcons/1.png"));
-        TWO = scaleImage(new ImageIcon("src/ButtonStateIcons/2.png"));
-        THREE = scaleImage(new ImageIcon("src/ButtonStateIcons/3.png"));
-        FOUR = scaleImage(new ImageIcon("src/ButtonStateIcons/4.png"));
-        FIVE = scaleImage(new ImageIcon("src/ButtonStateIcons/5.png"));
-        SIX = scaleImage(new ImageIcon("src/ButtonStateIcons/6.png"));
-        SEVEN = scaleImage(new ImageIcon("src/ButtonStateIcons/7.png"));
-        EIGHT = scaleImage(new ImageIcon("src/ButtonStateIcons/8.png"));
+        D = scaleImage(new ImageIcon("ButtonStateIcons/DangerIcon1.png"));
+        S = scaleImage(new ImageIcon("ButtonStateIcons/SafeIcon.png"));
+        ONE = scaleImage(new ImageIcon("ButtonStateIcons/1.png"));
+        TWO = scaleImage(new ImageIcon("ButtonStateIcons/2.png"));
+        THREE = scaleImage(new ImageIcon("ButtonStateIcons/3.png"));
+        FOUR = scaleImage(new ImageIcon("ButtonStateIcons/4.png"));
+        FIVE = scaleImage(new ImageIcon("ButtonStateIcons/5.png"));
+        SIX = scaleImage(new ImageIcon("ButtonStateIcons/6.png"));
+        SEVEN = scaleImage(new ImageIcon("ButtonStateIcons/7.png"));
+        EIGHT = scaleImage(new ImageIcon("ButtonStateIcons/8.png"));
     }
     
     // Scale images to fit cubes
