@@ -37,14 +37,14 @@
 	1) Icon website: https://www.flaticon.com/search?word=number
 	2) How to scale images: https://stackoverflow.com/questions/13810213/java-stretch-icon-to-fit-button
 	3) Create frame and panel: based on previous class lab
-	                ```
-			JFrame frame = new JFrame();
-	    		frame.getContentPane().add(new Animation());
-	    		frame.setBackground(Color.gray);
-	    		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-	    		frame.setSize(frameWidth, frameHeight);
-	    		frame.setVisible(true);
-			```
+	```
+	JFrame frame = new JFrame();
+	frame.getContentPane().add(new Animation());
+	frame.setBackground(Color.gray);
+	frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+	frame.setSize(frameWidth, frameHeight);
+	frame.setVisible(true);
+	```
 	4) Create grid on panel:https://www.youtube.com/watch?v=Db3cC5iPrOM
 	5) Distribute random mines on Matrix: based on previous class lab
 	```
